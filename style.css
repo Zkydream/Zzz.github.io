@@ -1,0 +1,22 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+@keyframes dj {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.dj-animation {
+    animation: dj 0.6s linear infinite;
+}
